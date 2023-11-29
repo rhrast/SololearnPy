@@ -1,0 +1,13 @@
+# name = Game Machine
+# problem - take user input to output the name of the game according to the number entered.
+
+#installed games
+games = [
+  'Soccer', 'Tic Tac Toe', 'Snake',
+  'Puzzle', 'Rally']
+
+#taking player's choice as a number input
+choice = int(input())
+
+#output the corresponding game
+output = print(games[choice])
